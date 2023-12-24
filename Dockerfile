@@ -11,7 +11,7 @@ RUN apt-get install nodejs -y
 
 RUN mkdir ./App
 
-COPY ./App ./App
+COPY ./devapp ./App
 
 WORKDIR ./App
 
