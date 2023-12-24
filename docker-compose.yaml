@@ -16,4 +16,4 @@ services:
       - 443:3000
     command: npm start
     volumes:
-      - ./devapp:/App
+      - ./devapp:/App
